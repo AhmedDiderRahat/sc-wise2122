@@ -127,3 +127,6 @@ head(deck)
 
 #get working directory 
 getwd()
+
+#writing csv file
+write.csv(deck, file="card.csv", row.names = FALSE)
